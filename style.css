@@ -104,3 +104,7 @@ button:hover {
 #todoList li .delete-btn:hover {
   background: #e53e3e;
 }
+
+/* === Dark Mode === */
+body.dark { background: #1a202c; color: #f7fafc; }
+.dark .container { background: #2d3748; }

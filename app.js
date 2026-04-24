@@ -40,3 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (e.key === 'Enter') addTodo();
   });
 });
+
+// Fitur Dark Mode
+function toggleDarkMode() { document.body.classList.toggle('dark'); }
